@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
-export class Pract2 extends Component {
+export class Child extends Component {
 
     handleClick = () =>{
         this.props.getToggle()
     }
+    
   render() {
     return (
       <div>
