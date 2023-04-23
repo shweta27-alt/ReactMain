@@ -15,4 +15,4 @@ export class Child extends Component {
   }
 }
 
-export default Pract2
+export default Child
