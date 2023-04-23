@@ -1,5 +1,8 @@
+//In parent we have 2 div and in child we have 1 button on click of button toggle the div suppose 'hey' is visible on click of button it will togglw to 'hello'
+// check the child page for button event handling
+
 import React, { Component } from 'react'
-import Pract2 from './Pract2'
+import Child from './Child'
 
 class Practs1 extends Component {
 
@@ -18,7 +21,7 @@ class Practs1 extends Component {
   render() {
     return (
         <>
-        <Pract2 getToggle={this.getToggle}/>
+        <Child getToggle={this.getToggle}/>
         {this.state.count ?<div>
         heyyyyy
       </div> :
