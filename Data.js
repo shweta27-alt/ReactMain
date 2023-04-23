@@ -1,3 +1,6 @@
+//state management state is for the component 
+// variable is only for the function
+
 import React,{Component} from 'react'
 
 class Data extends Component{
